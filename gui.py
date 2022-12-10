@@ -72,7 +72,7 @@ class GUI:
 
     def save_selection(self):
         """
-
+        Saves the vote of the user, but only if the ID number has not been used already. Results are output to a csv file.
         """
         id = self.entry_zero.get()
         choice = self.radio_1.get()
